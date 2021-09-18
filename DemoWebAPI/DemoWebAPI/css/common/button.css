@@ -77,6 +77,10 @@ button .btn-text {
     background-image: url('/content/images/Save16.png');
 }
 
+.required-error, .required-error:focus {
+    border: 1px solid #ff0000 !important;
+}
+
 .btn-icon-saveadd {
     background-image: url('/content/images/SaveAdd16.png');
 }
