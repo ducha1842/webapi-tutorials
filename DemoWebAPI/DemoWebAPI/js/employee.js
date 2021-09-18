@@ -17,7 +17,8 @@ class EmployeeJS {
     }
 
     loadData() {
-        $.each(data, function (index, item) {
+        $('.grid tbody').empty();
+        $.each(employees, function (index, item) {
             var trHTML = $(`<tr>
                         <th width="100px">`+ item.EmployeeCode +`</th>
                         <th>`+ item.EmployeeName +`</th>
@@ -32,6 +33,7 @@ class EmployeeJS {
             $('.grid tbody').append(trHTML);
         })
     }
+
     btnAddOnClick() {
         this.showDialogDetail();
         $("#txtEmployeeCode").focus();
@@ -45,14 +47,35 @@ class EmployeeJS {
 
     btnSaveDetailOnClick() {
         // Validate dữ liệu nhập trên form
-        var inputRequireds = $("intput[required]");
+        var inputRequireds = $("[required]");
+        var isValid = true;
         $.each(inputRequireds, function (index, input) {
             //debugger;
             var valid = $(input).trigger("blur");
+            if (isValid && valid.hasClass("required-error")) {
+                isValid = false;
+            }
         })
-        // Thu thập thông tin nhập trên form
+        if (isValid) {
+            // Thu thập thông tin nhập trên form
+            var employee = {};
+            employee.EmployeeCode = $("#txtEmployeeCode").val();
+            employee.EmployeeName = $("#txtEmployeeName").val();
+            employee.Sex = "Nam";
+            employee.Birthday = "18/04/2000";
+            employee.Mobile = $("#txtMobile").val();
+            employee.Address = $("#txtAddress").val();
+            employee.Email = $("#txtEmail").val();
+            employee.Position = "Nhân viên";
+            employee.Department = "Developer";
 
-        // Thực hiện cất dữ liệu
+            // Thực hiện cất dữ liệu
+            employees.push(employee);
+            //load lại dữ liệu
+            this.loadData();
+            this.hideDialogDetail();
+        }
+
     }
     /**
      * Hiển thị dialog chi tiết
@@ -84,7 +107,7 @@ class EmployeeJS {
 }
 
 
-var data = [
+var employees = [
     {
         EmployeeCode: "KH001",
         EmployeeName: "Nguyen Duc Ha",
