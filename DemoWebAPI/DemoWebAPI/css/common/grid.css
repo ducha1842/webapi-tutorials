@@ -86,8 +86,8 @@ th, td {
 }
 
 th {
-    background: #ededed;
-    background-image: none;
+/*    background: #ededed;
+    background-image: none;*/
     outline: 0;
     color: #000;
     white-space: nowrap;
@@ -96,7 +96,7 @@ th {
 
     table tbody tr:hover {
         background-color: #bfd1fe;
-        cursor:pointer
+        cursor:pointer;
     }
 
     table tbody tr.row-selected {

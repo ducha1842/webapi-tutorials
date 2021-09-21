@@ -37,7 +37,6 @@ D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\bin\System.Net.Htt
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\bin\System.Web.Http.xml
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\bin\System.Web.Http.WebHost.xml
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\obj\Debug\DemoWebAPI.csprojAssemblyReference.cache
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\obj\Debug\DemoWebAPI.csproj.CoreCompileInputs.cache
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\obj\Debug\DemoWebAPI.csproj.CopyComplete
 D:\Học tập\C# .NET\webapi-tutorials\DemoWebAPI\DemoWebAPI\obj\Debug\DemoWebAPI.dll

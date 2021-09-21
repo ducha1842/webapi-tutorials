@@ -19,6 +19,12 @@ namespace DemoWebAPI
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Routes.MapHttpRoute(
+                name: "EmployeeAPI",
+                routeTemplate: "{controller}/{employeeCode}",
+                defaults: new { id = RouteParameter.Optional }
+            );
         }
     }
 }
