@@ -14,9 +14,9 @@ namespace DemoWebAPI.Models
             new Employee() { EmployeeCode = "NV003", EmployeeName = "Nguyễn Đức Thịnh", Email = "ducha1842@gmail.com", Mobile = "0967111222", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
             new Employee() { EmployeeCode = "NV004", EmployeeName = "Vũ Đức Thắng", Email = "ducha1842@gmail.com", Mobile = "0967111333", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
             new Employee() { EmployeeCode = "NV005", EmployeeName = "Hoàng Thị Thư", Email = "ducha1842@gmail.com", Mobile = "0967888555", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
-            new Employee() { EmployeeCode = "NV006", EmployeeName = "Trần Minh Ngọc", Email = "ducha1842@gmail.com", Mobile = "0967123456", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
-            new Employee() { EmployeeCode = "NV007", EmployeeName = "Berrie", Email = "ducha1842@gmail.com", Mobile = "0967432150", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
-            new Employee() { EmployeeCode = "NV008", EmployeeName = "River", Email = "ducha1842@gmail.com", Mobile = "0967000123", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"}
+            new Employee() { EmployeeCode = "NV006", EmployeeName = "Nguyễn Thị Đông Giang", Email = "ducha1842@gmail.com", Mobile = "0967123456", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
+            new Employee() { EmployeeCode = "NV007", EmployeeName = "River", Email = "ducha1842@gmail.com", Mobile = "0967432150", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"},
+            new Employee() { EmployeeCode = "NV008", EmployeeName = "Riv3r", Email = "ducha1842@gmail.com", Mobile = "0967000123", CompanyName = "Free", Address = "Thạch Thất - Hà Nội", Position = "Nhân viên", Department = "Developer"}
         };
 
         /// <summary>
